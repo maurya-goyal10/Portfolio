@@ -1,0 +1,269 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    box-sizing: border-box;
+    background: rgb(232,135,75);
+    background: -moz-radial-gradient(circle, rgba(232,135,75,1) 29%, rgba(158,152,236,1) 100%);
+    background: -webkit-radial-gradient(circle, rgba(232,135,75,1) 29%, rgba(158,152,236,1) 100%);
+    background: radial-gradient(circle, rgba(232,135,75,1) 29%, rgba(158,152,236,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#e8874b",endColorstr="#9e98ec",GradientType=1);
+}
+
+.navbbar {
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+  }
+
+.navbbar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5% 2%;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+  }
+.navbbar span{
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 1.5% 2%;
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.navbbar a:hover {
+    background-color: #9e98ec;
+    color: black;
+  }
+.navbbar a.active {
+      background-color: #e8874b;
+      color: white;
+    }
+
+.secc {
+    min-height: 60vh;
+    margin: 1.5% 15%;
+    margin-bottom: 0;
+    padding: 2.5%;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 0;
+    z-index: 0.5;
+}
+
+.secc  p{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.25rem;
+    color: white;
+    text-align: justify;
+}
+.secc  h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.secc  h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.5rem;
+}
+
+/* .secc  img{
+    height: 20%;
+    width: 50%
+} */
+.start{
+    margin-top: 0;
+    padding-top: 10%;
+}
+
+.start img{
+    border-radius: 50%;
+    height: 20%;
+    width: 40%;
+}
+.hobb1,.hobb2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 5px;
+    text-align: left;
+    margin: 0px 3px;
+}
+.hobb2{
+    margin-top: 10px;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+.football,.programming{
+    width: 20%;
+    border-radius: 50%;
+    background-color: #f78031;
+    border-radius: 50%;
+}
+.desc{
+    font-size: 1.25rem;
+}
+
+.contact h3{
+    font-size: 2rem;
+}
+.contact p{
+    text-align: center;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3rem;
+    color: black;
+}
+footer{
+    margin-bottom: 7.5%;
+    text-align: center;
+}
+#footer a.mail{
+    background-color: coral;
+    border: 2px solid whitesmoke;
+    font-size: 1.5rem;
+}
+#footer a.mail:hover{
+    text-transform: uppercase;
+    background-color: black;
+    border: 2px solid coral;
+}
+#footer a{
+    padding: 1%;
+    color: white;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+
+.boxx{
+    margin: 2% 0;
+    padding: 5%;
+    border: 2px whitesmoke dotted;
+    margin-bottom: 10%;
+}
+
+.boxx h3{
+    color: white;
+}
+
+.insta:hover{
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: black;
+}
+.fb:hover{
+    background-color: #3b5998;
+    color: white;
+}
+.linkedin:hover{
+    background-color: #0e76a8;
+    color: white;
+}
+.git:hover{
+    background-color: #171515;
+    color: white;
+}
+.copyright{
+    font-size: 1.1rem;
+}
+
+#intro-myself{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.intro img{
+    height: 65vh;
+    float: left;
+    margin-right: 2.5%;
+}
+
+.tech .carousel-inner h2 {
+    color: white;
+    font-size: 2.6rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.tech .carousel-inner h4{
+    color: white;
+    font-size: 1.6rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.list-tech{
+    text-align: center;
+    list-style-position: inside;
+}
+li{
+    text-align: center;
+}
+
+.carousel-item{
+    padding: 0 5%;
+}
+
+.carous-img{
+    text-align: center;
+    margin: 0 25%;
+    min-height: 40vh;
+    border: 3px rgb(0, 0, 0) solid;
+    background-image: url('./images/ML.jpg');
+    z-index: 0.5;
+    color: white;
+    font-size: 3rem;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.carousel-indicators li{
+    visibility: hidden;
+}
+.left, .right{
+    width: 5%;
+}
+
+@media all and (max-width: 900px){
+    .intro img{
+        height: 40vh;
+        margin-right: 2.5%;
+        float: none;
+        margin-bottom: 5%;
+    }
+    .hobby img{
+        display: none;
+    }
+    .navbbar {
+        position: fixed;
+        width: 100%;
+        background-color: black;
+        overflow: hidden;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+      }
+    
+    .navbbar a {
+        display: none;
+      }
+    .navbbar span{
+        float: none;
+        display: flex;
+        justify-content: center;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 1.5% 2%;
+        text-decoration: none;
+        font-size: 1.6rem;
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+    }
+
+}

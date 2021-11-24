@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: New Rocker
+- Font Author: Copyright (c) 2012, Pablo Impallari (www.impallari.com|impallari@gmail.com), Copyright (c) 2012, Brenda Gallo (gbrenda1987@gmail.com), Copyright (c) 2012, Rodrigo Fuenzalida (www.rfuenzalida.com|hello@rfuenzalida.com), with Reserved Font Name 'New Rocker'
+- Font Source: http://fonts.gstatic.com/s/newrocker/v11/MwQzbhjp3-HImzcCU_cJkGMViblPtXs.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL)
